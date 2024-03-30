@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- put position absolute inside
+        position relative-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">
+            Search with Your Voice
+          </div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon"
+           src="icons/upload.svg">
+           <div class="tooltip">
+            Create
+          </div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" 
+          src="icons/youtube-apps.svg">
+          <div class="tooltip">
+            YouTube Apps
+          </div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon"
+           src="icons/notifications.svg">
+          <div class="notifications-count">
+            9+
+          </div>
+          <div class="tooltip">
+            Notifications
+          </div>
+          
+        </div>
+        <div >
+          <img class="current-user-picture"
+          src="channel-pic/channel-7.jpg">
+        </div>
+        
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg"">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <selection class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/opepiccover.webp">
+            <div class="video-time">3:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/s6FWjFYSKe8?si=hoVooz83KPWfWqOG">
+                  One Piece : Drums of Liberation x Overtaken (GEAR 5) [EPIC COVER]
+                </a>
+              </p>
+              <p class="video-author">
+                Alexis Dl
+              </p>
+              <p class="video-stats">
+                1.1M views &#183; 7 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/sntthemesong.webp">
+            <div class="video-time">4:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=qal34e9v_pk&pp=ygUXc3V6dW1lIG5vIHRvamltYXJpIHNvbmc%3D">
+                  Suzume no Tojimari『Suzume』Theme Song
+                </a>
+              </p>
+              <p class="video-author">
+                AniMelody - Anime Music 
+              </p>
+              <p class="video-stats">
+                18M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/utasongs.webp">
+            <div class="video-time">33:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-3.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=MWAeAPZRLEU&pp=ygUSdXRhIHNvbmdzIHBsYXlsaXN0">
+                  Uta songs playlist (One Piece Film:Red)
+                </a>
+              </p>
+              <p class="video-author">
+                Girl's Today
+              </p>
+              <p class="video-stats">
+                267k views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/yournamesong.webp">
+            <div class="video-time">6:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-4.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Sparkle|Your Name AMV
+              </p>
+              <p class="video-author">
+                Tranquility
+              </p>
+              <p class="video-stats">
+                36M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/demonslayer.webp">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-5.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=IGWtNqeZMp0&pp=ygURZGVtb24gc2xheWVyIHNvbmc%3D">
+                  Demon Slayer: Kimetsu no Yaiba Opening Full with lyrics [LiSA - Gurenge] 
+                </a>
+              </p>
+              <p class="video-author">
+                SubahNoba 1.2
+              </p>
+              <p class="video-stats">
+                10M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/voice actors.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-6.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=Ghr9l6PNMtM&pp=ygU0YW5pbWUgdm9pY2UgYWN0b3JzIHNpbmdpbmcgbmFydXRvIG9wZW5pbmcgNCByZWFjdGlvbg%3D%3D">
+                  Anime Voice Actors Singing Naruto Opening 4
+                </a>
+              </p>
+              <p class="video-author">
+                NarutoRZ46K
+              </p>
+              <p class="video-stats">
+                2.6M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/opbink.webp">
+            <div class="video-time">3:19</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-7.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=cyGarA73Tcc&pp=ygU3b25lIHBpZWNlIG9zdCAtIGJpbmtzIG5vIHNha2Uoc3RyYXcgaGF0IHZlcnNpb24pIGx5cmljcw%3D%3D">
+                  One Piece OST-Binks no Sake(Strawhat Version)Lyrics
+                </a>
+              </p>
+              <p class="video-author">
+                oOo AnimeLyrics oOo
+              </p>
+              <p class="video-stats">
+                5.5M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/grandescape.webp">
+            <div class="video-time">5:34</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/ch-8.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=YAXTn0E-Zgo&pp=ygUYd2VhdGhlcmluZyB3aXRoIHlvdSBzb25n">
+                  Anime Voice Actors Singing Naruto Opening 4
+                </a>
+              </p>
+              <p class="video-author">
+                Tranquility
+              </p>
+              <p class="video-stats">
+                58M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </selection>
+    </main>
+
+  </body>
+</html>
+<!-- uses of sdisplay
+  BLOCK element : which takes up the entire line & inline block element
+  INLINE element : which only takes up as much space as it needs to
+  INLINE element : which apperas within the line of text
+
+<div>= division
+div is meant to be container
+
+flexbox is similar to css grid (but it's more flexible)
+flex- shrink=0 : don't shrink
+width=0 : shrink
+semaric elements = same as <div> [having meaning to screen readers]
+ sematic elements - <header>, <nav>, <main>
+<nav>- navigates 
+<main>- holds the main content  -->
